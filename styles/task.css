@@ -1,0 +1,106 @@
+.addTask{
+  padding-left: 50px;
+  margin: 20px 0;
+}
+.tableContainer {
+padding: 50px;
+
+}
+thead {
+  background-color: black;
+}
+thead th {
+  color: white;
+}
+.tableBtns{
+  display: flex;
+}
+.tableBtn {
+  border: none;
+  background-color: white;
+  margin: 0 5px;
+}
+.status{
+  background-color: green;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+  text-align: center;
+}
+button {
+  border: none;
+  background-color: white;
+}
+.formContainer form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-template-rows: auto;
+  padding:0 50px;
+}
+.inputContainer{
+  /* margin: 10px 0; */
+}  
+.inputContainer input {
+  width: 70%;
+  padding: 0 10px;
+outline: none;
+}
+.dateInput {
+    width: 250px;
+}
+.dateInput input {
+  margin: 5px 0;
+}
+.formCheck {
+  display: flex;
+}
+
+.formCheck input{
+ margin: 7px ;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+  border-color: gray;
+  background-color: white;
+}
+.formCheck input :checked{ 
+  background-color: green;
+  border-color: gray;
+
+}
+
+.submitBtn button{
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  width: 150px;
+  border-color: green;
+}
+.updateSubmitBtn button{
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 150px;
+  border-color: green;
+  text-align: center;
+
+}
+.updateSubmitBtn button span{
+  margin-left: 5px;
+  text-align: center;
+}
+.successContainer{
+  display: flex;
+  justify-content: center;
+}
+.success {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: yellow;
+  align-items: center;
+}

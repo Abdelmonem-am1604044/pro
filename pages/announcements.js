@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Header from "../components/header";
+import Header from "../components/Header";
 import { useSelector, useDispatch } from "react-redux";
 import { toggleChangeAction } from "../redux/reducer";
-import AnnouncmentsTable from "../components/announcmentsTable";
+import AnnouncmentsTable from "../components/AnnouncmentsTable";
 import AddAnnouncement from "../components/AddAnnouncement";
 import Link from "next/link";
 import UpdateAnnouncement from "../components/UpdateAnnouncement";
